@@ -1,0 +1,169 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svfifuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+fi:
+  hello: "Hello world"
+  has already befi takfi: "Has already befi takfi"
+  doesn't match confirmation: "Doesn't match confirmation"
+  is required: Is required.
+  is too short (minimum is 3 characters): "Minimum is 3 characters required."
+  is too short (minimum is 4 characters): "Minimum is 4 characters required."
+  gfieral:
+    email: Email
+    password_confirmation: Password confirm
+    sign_up: Sign Up
+    or_create_new_account: Or create new account
+    username: "Username"
+    figlish: "English"
+    finnish: "Finnish"
+    contact_us: "Contact Us"
+    main_page_title: "My Title"
+    main_meta_title: "Meta Title"
+    login_with_provider_html: "if you already have an account on one of these sites thfi click the logo to <strong>log in</strong> with it here:"
+    login_with_facebook: "Login with Facebook:"
+    login_with_twitter: "Login with Twitter:"
+    login_with_google: "Login with Google:"
+    signup_with_facebook: "Sign up with Facebook:"
+    signup_with_twitter: "Sign up with Twitter:"
+    signup_with_google: "Sign up with Google:"
+    click_here_to_sign_up: "click here to sign up"
+    forgotton_lost_login: "If you’ve forgottfi or lost your login information"
+    do_not_already_have_an_account: "If you don’t already have an account on any of the above"
+    click_here_to_recover_your_account: "click here to recover your account"
+    facebook: "facebook"
+    google: "google"
+    credfitials_not_valid: Credfitials you fitered are not valid.Please check the spelling for both email and password
+    login_successful: Logged Successful
+    successfully_created: Successfully created
+    successfully_updated: Successfully updated
+    successfully_destroyed: Successfully destroyed
+    all_records: All Records
+    search: Search
+    new: New
+    actions: Actions
+    edit: Edit
+    destroy: Destroy
+    are_you_sure_to_delete: Are you sure?
+    show: Show
+    view_all: View all
+    save: Save
+    back: Back
+    show_detail: Show detail
+    new_user_registration: Create mobile version of your web-site within few minutes!
+    login: Login
+    is_active: Active
+    admin_panel: Admin Panel
+    users: Users
+    edit_user: Edit User
+    close: Close
+    more: More
+    edit_profile: Edit Profile
+    username_required: Email Required
+    password_requied: Password Requied
+    login_successfully: Login Successfully
+    You_did_not_provide_any_details_for_authfitication: "You did not provide any details for authfitication"
+    Username_is_not_valid: Email is not valid
+    Password_cannot_be_blank: Password can not be blank
+    Password_is_not_valid: Password is not valid
+    Username_cannot_be_blank: Email cannot be blank
+    credfitials_not_valid: Credfitials you fitered are not valid.Please check the spelling for both email and password
+    successfully_registered: Successfully Registered
+    profile_updated_successfully: Profile Updated Successfully
+    email_required: Email Required
+    password_has_befi_sfit_to_your_email_address: Password has befi sfit to your email address
+    no_user_exists_for_provided_email_address: No user exists for provided email address
+    password_required: Password Required
+    password_does_not_match: Password does not match
+    password_successfully_updated: Password successfully updated
+    password_does_not_updated: Password does not updated
+    logout: Logout
+    home: Home
+    profile: My Account
+    change_password: Change Password
+    created_at: Date
+    copyright_all_rights_reserved_html: "Copyright &copy; 2013 MySite. All rights reserved."
+    privacy_policy: Privacy policy
+    terms_and_conditions: Terms Of Service
+    welcome: Welcome
+    contact: Contact
+    username: Your Name
+    email: Email
+    first_name: First name
+    last_name: Last name
+    address: Address
+    city: City
+    zipcode: Zipcode
+    image: Image
+    user_role: User Role
+    select_role: Select Role
+    admin: Admin
+    user: User
+    password_confirmation: Password confirmation
+    password: Password
+    add: Add
+    state: State
+    web_team: "My Site"
+    your_registration_has_befi_done_successfully: Your Registration Has Befi Done Successfully
+    dear: Dear
+    your_new_password_is: Your New Password Is
+    your_password_has_befi_reset_successfully: Your Password Has Befi Reset Successfully
+    title: Title
+    contfit: Contfit
+    mobile_pages: Mobile pages
+    url: URL
+    provider: Provider
+    user_id: User
+    name: Name
+    cancel: Cancel
+    preview: Preview
+    number_of_views: Number of views
+    view_count: View
+    log_in: Log In
+    last_edited_at: Last edited at
+    discard: Discard
+    are_you_sure_to_descard: Are you sure to discard changes ?
+    is_fiabled: Status
+    or: OR
+    here: here
+    of: of
+    total: Total
+    download: Download
+    print: Print
+    about_us: About us
+    change_my_password: "Change my password"
+    currfit_password: "Currfit password"
+    new_password: "New password"
+    new_password_confirmation: "New password confirmation"
+    update_password: "Update my password"
+    currfit_password_required: "Currfit password required"
+    password_required: "New password required"
+    password_does_not_match: "Password doesn't match"
+    password_does_not_updated: "Password doesn't updated"
+    currfit_password_is_wrong: "Currfit password is wrong"
+    reset_password: Reset password
+    password_has_befi_sfit_to_your_email_address: Password has befi sfit to your email address
+    no_user_exists_for_provided_email_address: No user exists for provided email address
+    successfully_registered: "Successfully registered"
+    you_are_not_admin: "You are not admin user"
+    pages: "Pages"
+    languages: "Languages"
+    code: "Code"
+    page_route: "Page Route"
+    record_not_found: "Record not found"
+    select_language: "Select language"
+    language: "Language"
+    page_not_found: "Page not found"
+    thank_you: Thank You
+    field_required: "Field Required."
+    roles: "Roles"
+    
+
+  activerecord:
+    attributes:
+      user:
+        email: "E-mail address"
+    errors:
+      models:
+        user:
+          attributes:
+            username: "E-mail required."

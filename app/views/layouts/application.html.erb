@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="title" content="<%= t('general.main_meta_title') %>" />
+	<meta name="description" content="FileShare" />
+	<meta name="keywords" content="FileShare" />
+	<meta name="author" content="FileShare" />
+	<meta name="google-site-verification" content="a3ihzg-ct56tvoq916jdjl5cpcn3QmBa0VbYmIzxjjE" />
+  <title><%= t('general.front_title') %></title>
+	<link rel="shortcut icon" href="/images/pagender_favico.ico" type="image/x-icon" />
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  
+	<script type="text/javascript">
+			$(".row-fluid input:text, #content textarea").eq(0).focus();
+	</script>
+	
+</head>
+<body>
+  <%= render 'layouts/header' %>
+  <div class="container-fluid">
+  	<div class="row-fluid">
+  		<!--<div class="span2"></div>
+  			<div class="span10">-->
+  				<div class="row-fluid"><br /><br />
+  				  <div class="loginfom">
+    					<div class="alert-success" id="flash_destroy_notice"></div>
+    					<% if flash[:notice] %>
+    						<div class="alert-success" id="flash_msg_notice">
+    							<%= flash[:notice] %>
+    						</div>
+    					<% end %>
+    					<% if flash[:error] %>
+    						<div class="alert-error" id="flash_msg_error">
+    							<%= flash[:error] %>
+    						</div>
+    					<% end %>
+    					<%= yield %>
+    				</div>	
+  				<!--<div>
+  			<div>-->
+  		<div>
+  	<div>
+  	
+  	<footer class="footerFront">
+  		<%= render 'layouts/footer' %>
+  	</footer>
+  <div>
+</body>
+</html>

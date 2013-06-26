@@ -1,0 +1,32 @@
+<div class="loginfom frontform">
+  <%= form_for [@o_single] do |f| %>
+    <p>
+      <%= f.label t("general.front_title") %>
+      <%= f.text_field :title %>
+    </p>
+  
+    <p>
+      <%= f.label t("general.footer_text") %>
+      <%= f.text_field :footer_text %>
+    </p>
+    
+    <p>
+      <%= f.label t("general.logo") %>
+      <%= f.file_field :logo %>
+    </p>
+        
+    <% if @o_single.logo? %>
+      <p><%= image_tag @o_single.logo_url(:logo) %></p>
+    <% end %>
+
+    <p>
+      <%= f.label t("general.front_text") %>
+      <%= f.cktext_area :front_text %>
+    </p>  
+
+    <p>
+      <%= f.submit t("general.save"), :class => 'btn btn-info' %>
+    </p>
+  <% end %>
+  <div class="cl"></div>
+</div>

@@ -1,0 +1,32 @@
+Welcome to Sample application
+
+== Getting Started
+
+    Clone package into your local directory.
+
+    modify config/database.yml
+
+    bundle install
+
+    rake db:create
+
+    rake db:migrate
+
+    rake db:seed
+
+- change BASE_URL variable in /config/environments/development.rb, production.rb, test.rb files.
+
+- create application on facebook and google account for your domain. And then update generated api and secret keys of 
+  facebook and google in config/initializers/omniauth.rb file.
+
+Login Credential and Urls:
+
+FRONT SIDE
+============
+localhost:3000
+email: nitin.barai777@gmail.com password: nitin
+
+ADMIN PANEL
+===========
+localhost:3000/admin
+username: administrator@example.com password: admin

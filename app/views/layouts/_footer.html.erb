@@ -1,0 +1,18 @@
+<div class="footer_content">
+  <div style="float: right">
+    <% if get_all_pages.size > 0 %>
+      <% for o_row in get_all_pages %>
+        <%= link_to o_row.name, "/fronts/other/#{o_row.page_route}" %> |
+      <% end %>
+    <% end %>
+   </div>
+   <div style="float: left">
+    <% if @o_settings.nil? %>
+      <%= t("general.copyright_all_rights_reserved_html") %>
+    <% else %>  
+      <%= @o_settings.footer_text %>
+    <% end %>
+   </div>
+</div>
+</div>
+</div>

@@ -1,0 +1,9 @@
+<div id="main_div">
+  <%= form_tag languages_path, :method => 'get', :id => "div_update_search" do %>
+    <%= render "common/search" %>
+  <% end %>
+  <div id="div_update">
+     <%= render 'fetchAll' %>
+  </div>
+  <%= link_to t("general.Add"), new_language_path, :class => "btn btn-info", :remote => true %>
+</div>

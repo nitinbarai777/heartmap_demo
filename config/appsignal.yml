@@ -1,0 +1,21 @@
+---
+# Unlisted environments will not be visible on the AppSignal site,
+# Active environments count towards the account plan limit.
+development:
+  # The API key used by the AppSignal gem to push this specific environment to
+  # AppSignal.  (required)
+  #
+  # It is possible to use ERB.
+  # api_key: "<%= ENV['APPSIGNAL_API_KEY'] %>"
+  api_key: "52ab9da6-33ed-4fd9-9b0a-d4de34fcff6f"
+
+  # The cuttoff point above which a request is considered slow. (default: 200)
+  # slow_request_threshold: 200
+
+  # Change whether this environment should be monitored. (default: false)
+  active: true
+production:
+  # Go to https://appsignal.com if you want to monitor your production
+  # environment to obtain an api key.
+  # api_key: <PRODUCTION-API-KEY>
+  active: false

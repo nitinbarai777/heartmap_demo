@@ -1,0 +1,63 @@
+# Logfile created on 2013-05-28 15:02:00 +0530 by logger.rb/31641
+config not found at: '/var/www/myapp/config/appsignal.yml'
+Activating appsignal-0.5.3
+[6091] Started the Appsignal agent
+[6091] Shutting down the agent
+Activating appsignal-0.5.3
+[10056] Started the Appsignal agent
+[10056] Shutting down the agent
+Activating appsignal-0.5.3
+[6025] Started the Appsignal agent
+[6025] Shutting down the agent
+Activating appsignal-0.5.3
+[6038] Started the Appsignal agent
+[6038] Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Shutting down the agent
+SocketError while sending queue: getaddrinfo: Name or service not known
+/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:762:in `initialize'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:762:in `open'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:762:in `block in connect'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:54:in `timeout'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:99:in `timeout'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:762:in `connect'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:755:in `do_start'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:744:in `start'\n/home/nitin/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:1284:in `request'\n/home/nitin/.rvm/gems/ruby-1.9.3-p194/gems/appsignal-0.6.1/lib/appsignal/transmitter.rb:32:in `transmit'\n/home/nitin/.rvm/gems/ruby-1.9.3-p194/gems/appsignal-0.6.1/lib/appsignal/agent.rb:36:in `send_queue'\n/home/nitin/.rvm/gems/ruby-1.9.3-p194/gems/appsignal-0.6.1/lib/appsignal/agent.rb:57:in `shutdown'\n/home/nitin/.rvm/gems/ruby-1.9.3-p194/gems/appsignal-0.6.1/lib/appsignal/railtie.rb:21:in `block (2 levels) in <class:Railtie>'
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent
+Shutting down the agent
+Activating appsignal-0.6.1
+Started the Appsignal agent

@@ -1,0 +1,47 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+
+          <%= link_to(image_tag("logo.png", :alt => "Logo", :class => "brand"), "/") %>
+          
+         <div class="navbar nav-collapse">
+              <ul class="nav pull-right">
+							 <% if current_user %>
+							   
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t("general.settings") %> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <% if is_admin? %>
+                        <li><%= link_to t("general.global_settings"), new_setting_path %></li>
+                        <li><%= link_to t("general.pages"), pages_path %></li>
+                        <li><%= link_to t("general.languages"), languages_path %></li>
+                      <% end %>                      
+                      <li> <%= link_to t("general.edit_profile"), edit_user_path(current_user.id)%></li>
+                      <li><%= link_to t("general.change_password"), change_password_path %></li>
+                      <li><%= link_to t("general.logout"), :logout%></li>
+                    </ul>
+                  </li>
+							<% end %>
+                  <li><form id="locale_id" action="" method="post" >
+                    <%= select_tag "locale", options_for_select(default_locales, session[:locale]), :class => "w100 btn-small"  %>
+                  </form>					
+                  </li>
+            </ul>
+						<% if current_user %>
+						  <ul class="nav">
+						    <% if is_admin? %>
+						      <%= render "layouts/admin" %>
+						    <% elsif is_educator? %>
+						      <%= render "layouts/educator" %>
+						    <% elsif is_agent? %>
+						      <%= render "layouts/agent" %>
+						    <% elsif is_expert? %>  
+						      <%= render "layouts/expert" %>
+						    <% end %>
+						  </ul>  
+						<% end %>
+
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
